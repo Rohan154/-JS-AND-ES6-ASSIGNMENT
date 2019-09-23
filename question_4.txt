@@ -1,0 +1,25 @@
+question 4: what are template and string literals?
+
+answers: string literals were generally used in es5 where for concatenating any words or space we have to use much single quotes or double quotes.
+         and strings also become complicated .example:
+
+         const string='this is\n my \"javascript\" code';
+         console.log(string);
+
+
+         so to remove this complicasy in es6 we got new features introduced named `template literals` where  only using `` symbol we can use space or \n or writing will become very easy and understandable.
+         example: const name='rohan';              
+                 const message=`
+                 Hi, ${name} ,
+
+                 Thankyou for mailing us ${2*2}th time
+
+                 Regards,
+                 rohan`
+
+                console.log(message);
+
+
+here,in the above example we have only used `` inside that whatever we write will be written like that only . 
+
+so, the benefits of template literals is that in email sending from the side of developer.

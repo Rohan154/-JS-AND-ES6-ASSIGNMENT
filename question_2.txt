@@ -1,0 +1,16 @@
+question 2:how to create javascrpt class in es6
+
+Answer:we create a class in es6 with the help of constructor and assign the values through this keyword and call 
+       value by creating object as shown below in the example
+
+
+
+class stud{
+    constructor(name,rollno,age){
+      this.name=name;
+      this.roll=rollno;
+      this.age=age;
+    }
+}
+var student=new stud("rohan",23,44);
+console.log(student);

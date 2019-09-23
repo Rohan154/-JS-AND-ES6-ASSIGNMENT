@@ -1,0 +1,8 @@
+destructuring assignment: It’s called destructuring assignment, because it “destructurizes” by copying items into variables. But the array itself is not modified.]
+                          it can be explained by the folloeing example:
+
+                          let arr=["hello","hello again"];
+
+                          let [first,second]=arr;    {here destructuring assignment is used where we assign some value directly to the arr}
+                          console.log(first);
+                          console.log(second);
